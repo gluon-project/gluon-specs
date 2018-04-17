@@ -7,11 +7,10 @@ box "Gluon Token"
   participant "Smart Contract" as GluonSC
   participant "Funding Pool" as FundingPool
   participant "ETH Pool" as ETHPool
-  participant "GLU Pool" as GLUPool
 end box
 box "Thanx Token"
   participant "Smart Contract" as ThanxSC
-  participant "THX Pool" as THXPool
+  participant "GLU Pool" as THXGLUPool
 end box
 actor Bob
 
@@ -20,10 +19,8 @@ Exchange -> Exchange : Takes 0.10 USD Fee
 Exchange -> GluonSC : Converts to 0.001 ETH
 GluonSC -> FundingPool : Tx Fee 0.01 % ETH
 GluonSC -> ETHPool : Stakes 0.0009999 ETH
-GluonSC -> GLUPool : Mints 10 GLU
-GLUPool -> ThanxSC : Sends 10 GLU
-ThanxSC -> GLUPool : Stakes 10 GLU
-ThanxSC -> THXPool : Mints 5 THX
-THXPool -> Bob : 5 THX to Bob
+GluonSC -> ThanxSC : Mints 10 GLU
+ThanxSC -> THXGLUPool : Stakes 10 GLU
+ThanxSC -> Bob : Mints 500 THX
 
 @enduml
