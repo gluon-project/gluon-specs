@@ -1,0 +1,14 @@
+@startuml
+!include ../gluonskin.plantuml
+hide footbox
+title Alice sends THX to Bob
+actor Alice
+box "Thanx Token"
+  participant "Smart Contract" as ThanxSC
+end box
+actor Bob
+
+Alice -> ThanxSC : Sends 500 GLU
+ThanxSC -> Bob : Sends 500 THX
+
+@enduml

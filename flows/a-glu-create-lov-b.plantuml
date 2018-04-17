@@ -1,0 +1,25 @@
+@startuml
+!include ../gluonskin.plantuml
+hide footbox
+title Alice uses GLU to create THX tokens and sends them to Bob 
+actor Alice
+box "Gluon Token"
+  participant "Smart Contract" as GluonSC
+end box
+box "Gluon Token Factory"
+  participant "Smart Contract" as GluonFactorySC
+end box
+box "Thanx Token"
+  participant "Smart Contract" as ThanxSC
+  participant "GLU Pool" as THXGLUPool
+end box
+actor Bob
+
+Alice -> GluonSC : Sends 10 GLU
+GluonSC -> GluonFactorySC : Creates token (+ 10 GLU)
+GluonFactorySC -> ThanxSC : Sends 10 GLU
+
+ThanxSC -> THXGLUPool : Stakes 10 GLU
+ThanxSC -> Bob : Mints 500 THX
+
+@enduml
