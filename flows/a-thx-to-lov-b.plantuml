@@ -1,0 +1,21 @@
+@startuml
+!include ../gluonskin.plantuml
+hide footbox
+title Alice uses THX to buy LOV tokens
+actor Alice
+box "Thanx Token"
+  participant "Smart Contract" as ThanxSC
+  participant "GLU Pool" as THXGLUPool
+end box
+box "Love Token"
+  participant "Smart Contract" as LoveSC
+  participant "GLU Pool" as LOVGLUPool
+end box
+actor Bob
+
+Alice -> ThanxSC : Burns 500 THX
+ThanxSC <- THXGLUPool : Takes 10 GLU
+ThanxSC -> LoveSC : Sends 10 GLU
+LoveSC -> LOVGLUPool : Stakes 10 GLU
+LoveSC -> Bob : Mints 600 LOV
+@enduml

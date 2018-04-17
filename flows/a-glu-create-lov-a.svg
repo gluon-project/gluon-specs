@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="295px" preserveAspectRatio="none" style="width:685px;height:295px;" version="1.1" viewBox="0 0 685 295" width="685px" zoomAndPan="magnify"><defs><filter height="300%" id="f15mrm93z5h07i" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="263" x="212.5" y="23.5352">Alice uses GLU to create THX tokens</text><rect fill="#EDECFF" height="243.041" rx="5" ry="5" style="stroke: #BD10E0; stroke-width: 1.0;" width="149" x="63" y="34.4883"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="86" x="94.5" y="47.0566">Gluon Token</text><rect fill="#EDECFF" height="243.041" rx="5" ry="5" style="stroke: #BD10E0; stroke-width: 1.0;" width="149" x="245" y="34.4883"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="139" x="250" y="47.0566">Gluon Token Factory</text><rect fill="#EDECFF" height="243.041" rx="5" ry="5" style="stroke: #BD10E0; stroke-width: 1.0;" width="258" x="416" y="34.4883"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="89" x="500.5" y="47.0566">Thanx Token</text><line style="stroke: #878787; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="27" x2="27" y1="116.9766" y2="283.5293"/><line style="stroke: #878787; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="137" x2="137" y1="116.9766" y2="283.5293"/><line style="stroke: #878787; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="319" x2="319" y1="116.9766" y2="283.5293"/><line style="stroke: #878787; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="490" x2="490" y1="116.9766" y2="283.5293"/><line style="stroke: #878787; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="620" x2="620" y1="116.9766" y2="283.5293"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="33" x="8" y="114.0234">Alice</text><ellipse cx="27.5" cy="43.4883" fill="#FFFFFF" filter="url(#f15mrm93z5h07i)" rx="8" ry="8" style="stroke: #BD10E0; stroke-width: 2.0;"/><path d="M27.5,51.4883 L27.5,78.4883 M14.5,59.4883 L40.5,59.4883 M27.5,78.4883 L14.5,93.4883 M27.5,78.4883 L40.5,93.4883 " fill="none" filter="url(#f15mrm93z5h07i)" style="stroke: #BD10E0; stroke-width: 2.0;"/><rect fill="#FFFFFF" filter="url(#f15mrm93z5h07i)" height="30.4883" rx="5" ry="5" style="stroke: #BD10E0; stroke-width: 1.5;" width="117" x="77" y="81.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="103" x="84" y="102.0234">Smart Contract</text><rect fill="#FFFFFF" filter="url(#f15mrm93z5h07i)" height="30.4883" rx="5" ry="5" style="stroke: #BD10E0; stroke-width: 1.5;" width="117" x="259" y="81.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="103" x="266" y="102.0234">Smart Contract</text><rect fill="#FFFFFF" filter="url(#f15mrm93z5h07i)" height="30.4883" rx="5" ry="5" style="stroke: #BD10E0; stroke-width: 1.5;" width="117" x="430" y="81.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="103" x="437" y="102.0234">Smart Contract</text><rect fill="#FFFFFF" filter="url(#f15mrm93z5h07i)" height="30.4883" rx="5" ry="5" style="stroke: #BD10E0; stroke-width: 1.5;" width="75" x="581" y="81.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="61" x="588" y="102.0234">GLU Pool</text><polygon fill="#BD10E0" points="125.5,144.2871,135.5,148.2871,125.5,152.2871,129.5,148.2871" style="stroke: #BD10E0; stroke-width: 1.0;"/><line style="stroke: #BD10E0; stroke-width: 1.0;" x1="27.5" x2="131.5" y1="148.2871" y2="148.2871"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="86" x="34.5" y="143.5449">Sends 10 GLU</text><polygon fill="#BD10E0" points="307.5,173.5977,317.5,177.5977,307.5,181.5977,311.5,177.5977" style="stroke: #BD10E0; stroke-width: 1.0;"/><line style="stroke: #BD10E0; stroke-width: 1.0;" x1="137.5" x2="313.5" y1="177.5977" y2="177.5977"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="158" x="144.5" y="172.8555">Creates token (+ 10 GLU)</text><polygon fill="#BD10E0" points="478.5,202.9082,488.5,206.9082,478.5,210.9082,482.5,206.9082" style="stroke: #BD10E0; stroke-width: 1.0;"/><line style="stroke: #BD10E0; stroke-width: 1.0;" x1="319.5" x2="484.5" y1="206.9082" y2="206.9082"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="86" x="326.5" y="202.166">Sends 10 GLU</text><polygon fill="#BD10E0" points="608.5,232.2188,618.5,236.2188,608.5,240.2188,612.5,236.2188" style="stroke: #BD10E0; stroke-width: 1.0;"/><line style="stroke: #BD10E0; stroke-width: 1.0;" x1="490.5" x2="614.5" y1="236.2188" y2="236.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="90" x="497.5" y="231.4766">Stakes 10 GLU</text><polygon fill="#BD10E0" points="38.5,261.5293,28.5,265.5293,38.5,269.5293,34.5,265.5293" style="stroke: #BD10E0; stroke-width: 1.0;"/><line style="stroke: #BD10E0; stroke-width: 1.0;" x1="32.5" x2="489.5" y1="265.5293" y2="265.5293"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="93" x="44.5" y="260.7871">Mints 500 THX</text><!--
+@startuml
+skinparam roundcorner 10
+skinparam BoxPadding 10
+skinparam headerFontColor #BD10E0
+skinparam headerFontSize 18
+skinparam sequence {
+  ArrowColor #BD10E0
+  GroupBackgroundColor #BD10E0
+  GroupBorderColor #EDECFF
+  GroupHeaderFontColor #ffffff
+  BoxBorderColor #BD10E0
+  BoxBackgroundColor #EDECFF
+  BoxPadding 10
+
+  ParticipantBorderColor #BD10E0
+  ParticipantBackgroundColor #ffffff
+  ParticipantPadding 10
+
+  ActorBorderColor #BD10E0
+  ActorBackgroundColor #ffffff
+  EntityBorderColor #BD10E0
+  EntityBackgroundColor #ffffff
+  DatabaseBorderColor #BD10E0
+  DatabaseBackgroundColor #ffffff
+
+  LifeLineBorderColor #878787
+}
+
+hide footbox
+title Alice uses GLU to create THX tokens
+actor Alice
+box "Gluon Token"
+  participant "Smart Contract" as GluonSC
+end box
+box "Gluon Token Factory"
+  participant "Smart Contract" as GluonFactorySC
+end box
+box "Thanx Token"
+  participant "Smart Contract" as ThanxSC
+  participant "GLU Pool" as THXGLUPool
+end box
+
+Alice -> GluonSC : Sends 10 GLU
+GluonSC -> GluonFactorySC : Creates token (+ 10 GLU)
+GluonFactorySC -> ThanxSC : Sends 10 GLU
+
+ThanxSC -> THXGLUPool : Stakes 10 GLU
+ThanxSC -> Alice : Mints 500 THX
+
+@enduml
+
+PlantUML version 1.2018.03(Thu Apr 05 19:59:15 EEST 2018)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_144-b01
+Operating System: Mac OS X
+OS Version: 10.12.6
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

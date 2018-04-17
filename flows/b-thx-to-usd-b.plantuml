@@ -1,0 +1,28 @@
+@startuml
+!include ../gluonskin.plantuml
+hide footbox
+title Bob exchanges THX to USD
+actor Bob
+box "Thanx Token"
+  participant "Smart Contract" as ThanxSC
+  participant "GLU Pool" as THXGLUPool
+end box
+box "Gluon Token"
+  participant "Smart Contract" as GluonSC
+  participant "Funding Pool" as FundingPool
+  participant "ETH Pool" as ETHPool
+end box
+box "3rd Party Exchange"
+  participant "API" as Exchange
+end box
+
+Bob -> ThanxSC : Burns 500 THX
+ThanxSC <- THXGLUPool : Takes 10 GLU
+ThanxSC -> GluonSC : Burns 10 GLU
+GluonSC <- ETHPool : Takes 0.0009999 ETH
+GluonSC -> FundingPool : Tx Fee 0.01 % ETH
+GluonSC -> Exchange : Sends 0.0009998 ETH
+Exchange -> Exchange : Takes 0.10 USD Fee
+Exchange -> Bob : Converts 8.9 USD
+
+@enduml
