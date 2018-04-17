@@ -19,11 +19,11 @@ Alice -> Exchange : Sends 10 USD
 Exchange -> Exchange : Takes 0.10 USD Fee
 Exchange -> GluonSC : Converts to 0.001 ETH
 GluonSC -> FundingPool : Tx Fee 0.01 % ETH
-GluonSC -> ETHPool : Stakes ETH
-GluonSC -> GLUPool : Mints GLU
-GLUPool -> ThanxSC : Sends GLU
-ThanxSC -> GLUPool : Stakes GLU
-ThanxSC -> THXPool : Mints 3 LIKE
-THXPool -> Bob : Sends to Bob
+GluonSC -> ETHPool : Stakes 0.0009999 ETH
+GluonSC -> GLUPool : Mints 10 GLU
+GLUPool -> ThanxSC : Sends 10 GLU
+ThanxSC -> GLUPool : Stakes 10 GLU
+ThanxSC -> THXPool : Mints 5 THX
+THXPool -> Bob : 5 THX to Bob
 
 @enduml
