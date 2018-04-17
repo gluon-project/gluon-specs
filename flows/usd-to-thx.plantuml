@@ -1,0 +1,29 @@
+@startuml
+!include ../gluonskin.plantuml
+title Alice uses USD to send THX tokens to Bob 
+actor Alice
+participant "3rd Party Exchange" as Exchange
+box "Gluon Token"
+  participant "Smart Contract" as GluonSC
+  participant "Funding Pool" as FundingPool
+  participant "ETH Pool" as ETHPool
+  participant "GLU Pool" as GLUPool
+end box
+box "Thanx Token"
+  participant "Smart Contract" as ThanxSC
+  participant "THX Pool" as THXPool
+end box
+actor Bob
+
+Alice -> Exchange : Sends 10 USD
+Exchange -> Exchange : Takes 0.10 USD Fee
+Exchange -> GluonSC : Converts to 0.001 ETH
+GluonSC -> FundingPool : Tx Fee 0.01 % ETH
+GluonSC -> ETHPool : Stakes ETH
+GluonSC -> GLUPool : Mints GLU
+GLUPool -> ThanxSC : Sends GLU
+ThanxSC -> GLUPool : Stakes GLU
+ThanxSC -> THXPool : Mints 3 LIKE
+THXPool -> Bob : Sends to Bob
+
+@enduml
