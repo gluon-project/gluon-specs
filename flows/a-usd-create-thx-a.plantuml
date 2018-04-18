@@ -2,13 +2,13 @@
 !include ../gluonskin.plantuml
 hide footbox
 title Alice uses USD to create THX tokens
-actor Alice
-box "3rd Party Exchange"
+actor Alice #E03F10
+box "3rd Party Exchange" #F5E9D7 
   participant "API" as Exchange
 end box
 box "Gluon Token"
   participant "Smart Contract" as GluonSC
-  participant "Funding Pool" as FundingPool
+  participant "Funding Pool" as FundingPool #9CEF9F
   participant "ETH Pool" as ETHPool
 end box
 box "Gluon Token Factory"

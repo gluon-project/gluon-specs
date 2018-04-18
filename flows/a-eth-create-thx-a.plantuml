@@ -1,11 +1,11 @@
 @startuml
 !include ../gluonskin.plantuml
 hide footbox
-title Alice uses ETH to create THX tokens and sends them to Bob 
-actor Alice
+title Alice uses ETH to create THX tokens
+actor Alice #E03F10
 box "Gluon Token"
   participant "Smart Contract" as GluonSC
-  participant "Funding Pool" as FundingPool
+  participant "Funding Pool" as FundingPool #9CEF9F
   participant "ETH Pool" as ETHPool
 end box
 box "Gluon Token Factory"
@@ -15,7 +15,6 @@ box "Thanx Token"
   participant "Smart Contract" as ThanxSC
   participant "GLU Pool" as THXGLUPool
 end box
-actor Bob
 
 Alice -> GluonSC : Sends 0.001 ETH
 GluonSC -> FundingPool : Tx Fee 0.01 % ETH
@@ -25,6 +24,6 @@ GluonSC -> GluonFactorySC : Creates token (+ 10 GLU)
 GluonFactorySC -> ThanxSC : Sends 10 GLU
 
 ThanxSC -> THXGLUPool : Stakes 10 GLU
-ThanxSC -> Bob : Mints 500 THX
+ThanxSC -> Alice : Mints 500 THX
 
 @enduml

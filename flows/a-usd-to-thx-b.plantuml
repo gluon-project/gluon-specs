@@ -2,20 +2,20 @@
 !include ../gluonskin.plantuml
 hide footbox
 title Alice uses USD to send THX tokens to Bob 
-actor Alice
-box "3rd Party Exchange"
+actor Alice #E03F10
+box "3rd Party Exchange" #F5E9D7
   participant "API" as Exchange
 end box
 box "Gluon Token"
   participant "Smart Contract" as GluonSC
-  participant "Funding Pool" as FundingPool
+  participant "Funding Pool" as FundingPool #9CEF9F
   participant "ETH Pool" as ETHPool
 end box
 box "Thanx Token"
   participant "Smart Contract" as ThanxSC
   participant "GLU Pool" as THXGLUPool
 end box
-actor Bob
+actor Bob #1051E0
 
 Alice -> Exchange : Sends 10 USD
 Exchange -> Exchange : Takes 0.10 USD Fee

@@ -2,17 +2,17 @@
 !include ../gluonskin.plantuml
 hide footbox
 title Alice uses ETH to send THX tokens to Bob 
-actor Alice
+actor Alice #E03F10
 box "Gluon Token"
   participant "Smart Contract" as GluonSC
-  participant "Funding Pool" as FundingPool
+  participant "Funding Pool" as FundingPool #9CEF9F
   participant "ETH Pool" as ETHPool
 end box
 box "Thanx Token"
   participant "Smart Contract" as ThanxSC
   participant "GLU Pool" as THXGLUPool
 end box
-actor Bob
+actor Bob #1051E0
 
 Alice -> GluonSC : Sends 0.001 ETH
 GluonSC -> FundingPool : Tx Fee 0.01 % ETH
