@@ -2,8 +2,6 @@
 
 ## Flows
 
-### Bob exchages THX to USD
-![pic](./flows/b-thx-to-usd-b.png)
 
 ### Alice sends THX to Bob
 ![pic](./flows/a-thx-to-thx-b.png)
@@ -42,4 +40,5 @@
 ### Alice uses THX to buy LOV tokens and sends them to Bob
 ![pic](./flows/a-thx-to-lov-b.png)
 
-
+### Bob exchages THX to USD
+![pic](./flows/b-thx-to-usd-b.png)
