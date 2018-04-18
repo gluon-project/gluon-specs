@@ -4,23 +4,21 @@ skinparam headerFontColor #BD10E0
 skinparam headerFontSize 18
 skinparam sequence {
   ArrowColor #BD10E0
-  GroupBackgroundColor #BD10E0
-  GroupBorderColor #EDECFF
-  GroupHeaderFontColor #ffffff
-  BoxBorderColor #BD10E0
-  BoxBackgroundColor #EDECFF
+  
+  BoxBorderColor #D9A1E4
+  BoxBackgroundColor #F0D7F5
   BoxPadding 10
 
-  ParticipantBorderColor #BD10E0
+  ParticipantBorderColor #D9A1E4
   ParticipantBackgroundColor #ffffff
   ParticipantPadding 10
 
-  ActorBorderColor #BD10E0
+  ActorBorderColor #000000
   ActorBackgroundColor #ffffff
+
   EntityBorderColor #BD10E0
   EntityBackgroundColor #ffffff
-  DatabaseBorderColor #BD10E0
-  DatabaseBackgroundColor #ffffff
+
 
   LifeLineBorderColor #878787
 }

@@ -2,7 +2,7 @@
 !include ../gluonskin.plantuml
 hide footbox
 title Alice uses GLU to create THX tokens
-actor Alice
+actor Alice #E03F10
 box "Gluon Token"
   participant "Smart Contract" as GluonSC
 end box

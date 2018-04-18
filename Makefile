@@ -5,7 +5,7 @@ DIAGRAMS_SRC := $(wildcard **/*.plantuml)
 DIAGRAMS_PNG := $(addsuffix .png, $(basename $(DIAGRAMS_SRC)))
 DIAGRAMS_SVG := $(addsuffix .svg, $(basename $(DIAGRAMS_SRC)))
 
-all: png svg
+all: png
 
 # build PNGs, probably what we want most of the time
 png: plantuml.jar $(DIAGRAMS_PNG)

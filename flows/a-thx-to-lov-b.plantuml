@@ -2,7 +2,7 @@
 !include ../gluonskin.plantuml
 hide footbox
 title Alice uses THX to buy LOV tokens
-actor Alice
+actor Alice #E03F10
 box "Thanx Token"
   participant "Smart Contract" as ThanxSC
   participant "GLU Pool" as THXGLUPool
@@ -11,7 +11,7 @@ box "Love Token"
   participant "Smart Contract" as LoveSC
   participant "GLU Pool" as LOVGLUPool
 end box
-actor Bob
+actor Bob #1051E0
 
 Alice -> ThanxSC : Burns 500 THX
 ThanxSC <- THXGLUPool : Takes 10 GLU

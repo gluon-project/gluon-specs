@@ -2,13 +2,13 @@
 !include ../gluonskin.plantuml
 hide footbox
 title Alice sends THX to Bob
-actor Alice
+actor Alice #E03F10
 box "Thanx Token"
   participant "Smart Contract" as ThanxSC
 end box
-actor Bob
+actor Bob #1051E0
 
-Alice -> ThanxSC : Sends 500 GLU
+Alice -> ThanxSC : Sends 500 THX
 ThanxSC -> Bob : Sends 500 THX
 
 @enduml
