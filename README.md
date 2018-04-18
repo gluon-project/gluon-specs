@@ -18,10 +18,10 @@
 ### Alice uses GLU to create THX token
 ![pic](./flows/a-glu-create-thx-a.png)
 
-### Alice uses ETH to create LOV token
+### Alice uses ETH to create THX token
 ![pic](./flows/a-eth-create-thx-a.png)
 
-### Alice uses USD to create LOV token
+### Alice uses USD to create THX token
 ![pic](./flows/a-usd-create-thx-a.png)
 
 
