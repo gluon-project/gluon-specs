@@ -3,17 +3,13 @@
 hide footbox
 title Alice uses GLU to send THX tokens to Bob 
 actor Alice #E03F10
-box "Gluon Token"
-  participant "Smart Contract" as GluonSC
-end box
 box "Thanx Token"
   participant "Smart Contract" as ThanxSC
   participant "GLU Pool" as THXGLUPool
 end box
 actor Bob #1051E0
 
-Alice -> GluonSC : Sends 10 GLU
-GluonSC -> ThanxSC : Mints 10 GLU
+Alice -> ThanxSC : Sends 10 GLU
 ThanxSC -> THXGLUPool : Stakes 10 GLU
 ThanxSC -> Bob : Mints 500 THX
 
