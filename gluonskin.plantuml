@@ -1,3 +1,4 @@
+skinparam shadowing false
 skinparam roundcorner 10
 skinparam BoxPadding 10
 skinparam headerFontColor #BD10E0
