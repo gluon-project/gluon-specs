@@ -5,6 +5,7 @@ title Alice uses USD to create THX tokens and sends them to Bob
 actor Alice #E03F10
 box "3rd Party Exchange" #F5E9D7
   participant "API" as Exchange
+  participant "Referral Pool" as ReferralPool #9CEF9F
 end box
 box "Gluon Token"
   participant "Smart Contract" as GluonSC
@@ -22,6 +23,7 @@ actor Bob #1051E0
 
 Alice -> Exchange : Sends 10 USD
 Exchange -> Exchange : Takes 0.10 USD Fee
+Exchange -> ReferralPool : Adds 0.01 USD
 Exchange -> GluonSC : Converts to 0.001 ETH
 GluonSC -> FundingPool : Tx Fee 0.01 % ETH
 GluonSC -> ETHPool : Stakes 0.0009999 ETH
