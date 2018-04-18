@@ -3,9 +3,6 @@
 hide footbox
 title Alice uses GLU to create THX tokens and sends them to Bob 
 actor Alice #E03F10
-box "Gluon Token"
-  participant "Smart Contract" as GluonSC
-end box
 box "Gluon Token Factory"
   participant "Smart Contract" as GluonFactorySC
 end box
@@ -15,8 +12,7 @@ box "Thanx Token"
 end box
 actor Bob #1051E0
 
-Alice -> GluonSC : Sends 10 GLU
-GluonSC -> GluonFactorySC : Creates token (+ 10 GLU)
+Alice -> GluonFactorySC : Creates token (+ 10 GLU)
 GluonFactorySC -> ThanxSC : Sends 10 GLU
 
 ThanxSC -> THXGLUPool : Stakes 10 GLU
