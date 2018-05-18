@@ -5,7 +5,6 @@ title Alice uses ETH to create THX tokens
 actor Alice #E03F10
 box "Gluon Token"
   participant "Smart Contract" as GluonSC
-  participant "Funding Pool" as FundingPool #9CEF9F
   participant "ETH Pool" as ETHPool
 end box
 box "Gluon Token Factory"
@@ -17,7 +16,6 @@ box "Thanx Token"
 end box
 
 Alice -> GluonSC : Sends 0.001 ETH
-GluonSC -> FundingPool : Tx Fee 0.01 % ETH
 GluonSC -> ETHPool : Stakes 0.0009999 ETH
 GluonSC -> GluonSC : Mints 10 GLU
 GluonSC -> GluonFactorySC : Creates token (+ 10 GLU)
