@@ -18,8 +18,8 @@ end box
 Bob -> ThanxSC : Burns 500 THX
 ThanxSC <- THXGLUPool : Takes 10 GLU
 ThanxSC -> GluonSC : Burns 10 GLU
-GluonSC <- ETHPool : Takes 0.0009999 ETH
-GluonSC -> Exchange : Sends 0.0009998 ETH
+GluonSC <- ETHPool : Takes 0.001 ETH
+GluonSC -> Exchange : Sends 0.001 ETH
 Exchange -> Exchange : Takes 0.10 USD Fee
 Exchange -> Bob : Converts 8.9 USD
 

@@ -14,7 +14,7 @@ end box
 actor Bob #1051E0
 
 Alice -> GluonSC : Sends 0.001 ETH
-GluonSC -> ETHPool : Stakes 0.0009999 ETH
+GluonSC -> ETHPool : Stakes 0.001 ETH
 GluonSC -> ThanxSC : Mints 10 GLU
 ThanxSC -> THXGLUPool : Stakes 10 GLU
 ThanxSC -> Bob : Mints 500 THX

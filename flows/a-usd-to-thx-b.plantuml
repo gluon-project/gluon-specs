@@ -19,7 +19,7 @@ actor Bob #1051E0
 Alice -> Exchange : Sends 10 USD
 Exchange -> Exchange : Takes 0.10 USD Fee
 Exchange -> GluonSC : Converts to 0.001 ETH
-GluonSC -> ETHPool : Stakes 0.0009999 ETH
+GluonSC -> ETHPool : Stakes 0.001 ETH
 GluonSC -> ThanxSC : Mints 10 GLU
 ThanxSC -> THXGLUPool : Stakes 10 GLU
 ThanxSC -> Bob : Mints 500 THX

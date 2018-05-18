@@ -1,0 +1,15 @@
+@startuml
+!include ../gluonskin.plantuml
+hide footbox
+title Alice uses ETH to mint GLU tokens
+actor Alice #E03F10
+box "Gluon Token"
+  participant "Smart Contract" as GluonSC
+  participant "ETH Pool" as ETHPool
+end box
+
+Alice -> GluonSC : Sends 0.001 ETH
+GluonSC -> ETHPool : Stakes 0.001 ETH
+GluonSC -> Alice : Mints 10 GLU
+
+@enduml

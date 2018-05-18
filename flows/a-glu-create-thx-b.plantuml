@@ -13,6 +13,7 @@ end box
 actor Bob #1051E0
 
 Alice -> GluonFactorySC : Creates token (+ 10 GLU)
+GluonFactorySC -> GluonFactorySC : Creates Thanx Token
 GluonFactorySC -> ThanxSC : Sends 10 GLU
 
 ThanxSC -> THXGLUPool : Stakes 10 GLU

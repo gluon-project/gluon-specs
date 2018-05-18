@@ -1,0 +1,15 @@
+@startuml
+!include ../gluonskin.plantuml
+hide footbox
+title Alice uses GLU to mint THX tokens 
+actor Alice #E03F10
+box "Thanx Token"
+  participant "Smart Contract" as ThanxSC
+  participant "GLU Pool" as THXGLUPool
+end box
+
+Alice -> ThanxSC : Sends 10 GLU
+ThanxSC -> THXGLUPool : Stakes 10 GLU
+ThanxSC -> Alice : Mints 500 THX
+
+@enduml

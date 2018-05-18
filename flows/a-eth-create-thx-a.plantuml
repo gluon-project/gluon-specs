@@ -16,7 +16,7 @@ box "Thanx Token"
 end box
 
 Alice -> GluonSC : Sends 0.001 ETH
-GluonSC -> ETHPool : Stakes 0.0009999 ETH
+GluonSC -> ETHPool : Stakes 0.001 ETH
 GluonSC -> GluonSC : Mints 10 GLU
 GluonSC -> GluonFactorySC : Creates token (+ 10 GLU)
 GluonFactorySC -> ThanxSC : Sends 10 GLU

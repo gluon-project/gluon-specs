@@ -21,7 +21,7 @@ end box
 Alice -> Exchange : Sends 10 USD
 Exchange -> Exchange : Takes 0.10 USD Fee
 Exchange -> GluonSC : Converts to 0.001 ETH
-GluonSC -> ETHPool : Stakes 0.0009999 ETH
+GluonSC -> ETHPool : Stakes 0.001 ETH
 GluonSC -> GluonSC : Mints 10 GLU
 GluonSC -> GluonFactorySC : Creates token (+ 10 GLU)
 GluonFactorySC -> ThanxSC : Sends 10 GLU

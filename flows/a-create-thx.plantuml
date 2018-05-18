@@ -1,0 +1,13 @@
+@startuml
+!include ../gluonskin.plantuml
+hide footbox
+title Alice creates THX token
+actor Alice #E03F10
+box "Gluon Token Factory"
+  participant "Smart Contract" as GluonFactorySC
+end box
+
+Alice -> GluonFactorySC : Requests new token
+GluonFactorySC -> GluonFactorySC : Creates Thanx Token
+
+@enduml
