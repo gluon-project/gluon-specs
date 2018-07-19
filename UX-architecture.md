@@ -108,6 +108,7 @@
         * Set Amount
         * Select receiver
             * Ethereum contact list
+            * Room contact list
             * Add new contact
                 * Name
                 * Address
