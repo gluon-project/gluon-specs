@@ -10,7 +10,10 @@
             * Message and URL
             * Send tokens
             * Request tokens
-            * Claim (Contact tab)
+            * Send Claim (Contact tab)
+            * Send Photo
+            * Send video
+            * Send location
             * Members
                 * Member list
                 * Invite member
@@ -56,12 +59,6 @@
                 * Sender
                 * Receiver
                 * Amount 
-                * Attachement
-                    * Message and URL
-                    * Photo
-                    * Claim ???
-                        * Create New claim
-                        * Add existing
                 * Tx progress
                 * Send-Request ???
                 * Share
@@ -122,12 +119,6 @@
                         * Email, name or matrix ID
             * Share in fb, twitter, etc.
             * Share url
-        * Attachement
-            * Message and URL
-            * Photo
-            * Claim ???
-                * Create New claim
-                * Add existing
     * Request
         * Select token
             * Token list
@@ -153,12 +144,6 @@
                         * Email, name or matrix ID
             * Share in fb, twitter, etc.
             * Share url        
-        * Attachement
-            * Message and URL
-            * Photo
-            * Claim ???
-                * Create New claim
-                * Add existing
 
 
 * Contacts
