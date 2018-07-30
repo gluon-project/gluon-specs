@@ -10,9 +10,7 @@
             * Message and URL
             * Send tokens
             * Request tokens
-            * Claim ???
-                * Create New claim
-                * Add existing
+            * Claim (Contact tab)
             * Members
                 * Member list
                 * Invite member
@@ -112,6 +110,8 @@
             * Add new contact
                 * Name
                 * Address
+                * Save
+                * Sign with uPort and save
         * Share
             * Share in Room
                 * Room list
@@ -162,14 +162,40 @@
 
 
 * Contacts
-    * Contact 1
-    * Contact 2
-    * Contact 3
-        * Edit
-        * Delete
-    * Add new contact
-        * Name
-        * Address
+    * Locally saved contacts
+        * Contact 1
+        * Contact 2
+        * Contact 3
+            * Claim 1 (Name:John)
+            * Claim 2 (Skill:Deigner)
+            * Claim 3 (Award:best in show)
+                * Share
+                    * Share in Room
+                        * Room list
+                        * New Room
+                            * Create new room 
+                                * Room name
+                            * Add existing
+                                * Email, name or matrix ID
+                    * Share in fb, twitter, etc.
+                    * Share url  
+            * Create New claim
+                * Save
+                * Sign with uPort and save
+            * Delete  
+        * Create new contact
+            * Name
+            * Address
+            * Save
+            * Sign with uPort and save
+    * Contacts loaded from matrix rooms (claims)
+        * Contact 1
+        * Contact 2
+        * Contact 3
+            * Claims list
+            * Create New claim
+                * Save
+                * Sign with uPort and save
 
 
 * Settings
