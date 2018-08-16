@@ -133,7 +133,7 @@
 
 ## Contacts
 
-* Locally saved contacts
+* Locally saved contacts (claims) and loaded from matrix rooms
   * Contact 1 (0x10)
   * Contact 2 (0x11)
   * Contact 3 (0x12)
@@ -153,26 +153,27 @@
     * Award: Best in show
       * Claim Signed by 0x08
     * Create New claim
+      * Claim Type
+        * Avatar
+        * Name
+        * Email
+        * Phone no
+        * Twitter
+        * Facebook
+        * Instagram
+        * Photos
+        * Link to web content
+        * Skills
+        * Awards
+        * # hashtag
+      * Value
+      * Subject
+      * Issuer
+      * Expiration date
+      * share in room
       * Save
       * Sign with uPort and save
     * Delete (all claims for this DID)
-    * Actions
-      * Send tokens
-      * Send matrix message (Create room)
-      * Share contact (select claims)
-        * Share in Room
-          * Room list
-          * New Room (form)
-        * Share in fb, twitter, etc.
-        * Share url 
-* Contacts loaded from matrix rooms (claims)
-  * Contact 1
-  * Contact 2
-  * Contact 3
-    * Claims list
-    * Create New claim
-      * Save
-      * Sign with uPort and save
     * Actions
       * Send tokens
       * Send matrix message (Create room)
