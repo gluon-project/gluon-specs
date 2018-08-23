@@ -89,7 +89,7 @@
     * Avatar ? (@oed)
     * Type
       * Fixed 
-        * Total amount
+        * Initial supply
         * Decimals
       * Bonding curve
         * Graph
